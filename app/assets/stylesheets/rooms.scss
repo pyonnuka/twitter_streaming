@@ -1,0 +1,35 @@
+// Place all the styles related to the rooms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #f1f1f1;
+  width: 100%;
+
+  h1 {
+    text-align: center;
+  }
+  #messages {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+
+    .post {
+      padding: 10px;
+      border-bottom: 1px solid #e1e1e1;
+      word-break:break-all;
+
+      .user {
+        img {
+          border-radius: 6px;
+        }
+        span {
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
